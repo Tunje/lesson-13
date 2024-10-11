@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Enter tag here</title>
 </head>
     <body>
@@ -12,21 +13,54 @@
         <header class="nav MaxWH location flex flex_j_SB">
             <div>logo</div>
             <div class="nav-menu flex flex_j_SB MaxWH disp location">
-                <div>here</div>
-                <div>there</div>
-                <div>anywhere</div>
-                <div>gear</div>
+                <div>
+                    <p>here</p>
+                </div>
+                <div>
+                    <p>there</p>
+                </div>
+                <div>
+                    <p>where</p>
+                </div>
+                <div>
+                    <p>gear</p>
+                </div>
             </div>
             <div class="nav-menu flex flex_j_SB MaxWH tiny flex_rowR location">
-                <p>Menu!</p>
+                <a onclick="burgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </header>
-        <main>
+        <div class="tiny gone flex_col" id="dropdown">
+            <div class="nav-drop flex flex_Ai_SA location">
+                <div>
+                    <p>here</p>
+                </div>
+            </div>
+            <div class="nav-drop flex flex_Ai_SA location">
+                <div>
+                    <p>there</p>
+                </div>
+            </div>
+            <div class="nav-drop flex flex_Ai_SA location">
+                <div>
+                    <p>where</p>
+                </div>
+            </div>
+            <div class="nav-drop flex flex_Ai_SA location">
+                <div>
+                    <p>gear</p>
+                </div>
+            </div>
+        </div>
+        <main>  
             <section>
                 <h1></h1>
             </section>
             <section>
             </section>
         </main>
+        <script src="scripts/script.js" type="text/javascript"></script>
     </body>
 </html>

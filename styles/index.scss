@@ -11,15 +11,11 @@
     min-height: 25px;
     max-width: 100vw;
 }
-.location{
-    border: #c37272;
-    border-width: 3px;
-    border-style: solid;    
-}
 .MaxWH{
     width: 100%;
     height: 100%;
 }
+
 
 .disp{
     display: flex;
@@ -35,4 +31,14 @@
     .tiny{
         display: flex;
     }
+}
+
+
+
+
+.gone{
+    display: none;
+}
+.there{
+    display: flex;
 }
