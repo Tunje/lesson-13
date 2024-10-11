@@ -17,28 +17,31 @@
 }
 
 
+.gone{
+    display: none;
+}
+.there{
+    display: none;
+}
 .disp{
     display: flex;
 }
 .tiny{
     display: none;
 }
+.green{
+    display: none;
+}
 @media screen and (max-width:1000px) {
-    
     .disp{
         display: none;
     }
     .tiny{
         display: flex;
     }
+    .there{
+        display: flex;
+    }
 }
 
 
-
-
-.gone{
-    display: none;
-}
-.there{
-    display: flex;
-}
